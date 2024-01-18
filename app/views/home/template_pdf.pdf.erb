@@ -1,0 +1,120 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>Alex - Curriculum</title>
+  <style>
+      body {
+          font-family: 'Calibri', sans-serif;
+          color: #333;
+          line-height: 1.5;
+          font-size: 12pt;
+          margin: 0;
+          padding: 0;
+      }
+
+      a {
+          text-decoration: none;
+      }
+
+      header {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      header h1 {
+          font-size: 22pt;
+          margin-bottom: 0;
+      }
+
+      header p {
+          margin: 0;
+      }
+
+      h2 {
+          font-size: 16pt;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          font-weight: bold;
+      }
+
+      h3 {
+          font-size: 14pt;
+          margin-bottom: 4px;
+      }
+
+      p {
+          margin: 0px 0;
+      }
+
+  </style>
+</head>
+<body>
+<header>
+  <h1><%= t('template_pdf.name') %></h1>
+  <span>
+            <%= t('template_pdf.software_development') %>
+    | Java | React | Ruby | Javascript | PostgreSQL | SASS
+        </span>
+  <hr/>
+</header>
+<section id="resume">
+<!--  <p><%#= t('template_pdf.rails') %></h2>-->
+</section>
+
+<section id="contact">
+  <h2><%= t('template_pdf.contact') %></h2>
+  <hr/>
+  <ul>
+    <li><strong>GitHub:</strong> <a href="github.com/thealexcesar">github.com/thealexcesar</a></li>
+    <li><strong>Email:</strong> <a href="mailto:alex.cesar505@icloud.com">alex.cesar505@icloud.com</a></li>
+    <li><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/thealexcesar">www.linkedin.com/in/thealexcesar</a></li>
+    <li>
+      <strong> <%= t('template_pdf.phone') %>:
+      </strong><a href="https://wa.me/47997365756?text=Contato%20via%20currículo">(47) 997365756</a>
+    </li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2><%= t('template_pdf.experience') %></h2>
+  <hr/>
+  <h3><a href="https://appnucleus.com.br/">Nucleus Software</a></h3>
+  <ul>
+    <li><b><%= t('template_pdf.position') %>:</b> <%= t('template_pdf.software_developer_full_time') %></li>
+    <li><b><%= t('template_pdf.period') %>:</b> <%= t('template_pdf.september_to_august') %></li>
+
+    <li>
+      <b><%= t('template_pdf.description') %>:</b> <%= t('template_pdf.job_description') %>
+    </li>
+  </ul>
+</section>
+
+<section id="education">
+  <h2><%= t('template_pdf.education') %></h2>
+  <hr/>
+  <div>
+    <h3><a href="https://www.uninter.com/graduacao-ead/curso-engenharia-da-computacao/">Uninter</a></h3>
+    <p><%= t('template_pdf.computer_engineer.course') %></p>
+    <p><%= t('template_pdf.computer_engineer.start_end') %></p>
+  </div>
+  <div>
+    <h3><a href="https://www.furb.br/pt/graduacao/ciencia-da-computacao">FURB</a></h3>
+    <p><%= t('template_pdf.computer_science.course') %></p>
+    <p><%= t('template_pdf.computer_science.start_end') %></p>
+  </div>
+</section>
+
+<section id="education-complementary">
+  <h2><%= t('template_pdf.education_complementary') %></h2>
+  <hr/>
+  <h3><a href="https://fullcycle.com.br">FullCycle</a></h3>
+  <p><%= t('template_pdf.start_end') %></p>
+
+  <p><%= t('template_pdf.full_cycle_details') %></p>
+
+</section>
+</body>
+</html>

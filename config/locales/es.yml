@@ -1,0 +1,415 @@
+es:
+  activerecord:
+    attributes:
+#      errors:
+#        messages:
+#          record_invalid: 'La validación falló: %{errors}'
+#          restrict_dependent_destroy:
+#            has_one: "No se puede eliminar el registro porque hay un(a) %{record} dependiente"
+#            has_many: "No se puede eliminar el registro porque hay %{record} dependientes"
+      category:
+        device: "Dispositivo"
+        language: "Idioma"
+        parent_category_id: "Categoria"
+        title: "Titulo"
+      image:
+        favorite: "Favorito"
+        filename: "Nombre de la imagen"
+        image_type: "Tipo de imagen"
+        size: "Tamaño del archivo"
+      project:
+        description: "Descripción"
+        language: "Idioma"
+        os: "Sistema operativo"
+        published: "Publicado"
+      seo:
+        author: "Autor"
+        description: "Descripción"
+        keywords: "Palabra clave"
+        project_id: "Proyecto"
+        site_name: "Nombre del sitio"
+        title: "Título"
+      user:
+        email: "Email"
+        password: "contraseña"
+        password_confirmation: "Confirmación de contraseña"
+        remember_me: "Recordarme"
+    models:
+      category:
+        one: "Categoria"
+        other: "Categorías"
+      image:
+        one: "Imagen"
+        other: "Imágenes"
+      project:
+        one: "Proyecto"
+        other: "Proyectos"
+      seo:
+        one: "Seo"
+        other: "Seos"
+      user:
+        one: "Usuario"
+        other: "Usuarios"
+#  application_helper:
+#    meta_title: "NUCLEUS Software de Automatización y Aprobación Remota para Clicherías y Convertidores"
+#    meta_description: "Nucleus tiene como objetivo llevar el primer software totalmente web gráfico para la gestión y automatización de Clicherías y Convertidores y aprobación remota."
+#    meta_keywords: "Clichería, Gráficas, Aprobación Remota, Flujos de Automatización, Offset, Rotogravura, Agencias de arte"
+#    page_title: "NUCLEUS - Software de gestión y automatización para Clicherías, Convertidores y Aprobación Remota"
+#  application_title: "Software de Aprobación Remota, Comercial y Clicherías"
+#  btn:
+#    edit: "Editar"
+#    delete: "Eliminar"
+#    save: "Guardar"
+#    show: "Mostrar"
+#    view: "Visualizar"
+#  coming_soon: "¡Novedades llegando para ti!"
+#  confirm:
+#    destroy: "¿Está seguro/a de que desea eliminar?"
+#  contact_notifier:
+#    join_the_nucleus_erp_and_win_more_customers: "¡Forme parte del ERP Nucleus y conquiste más clientes!"
+#    contacto: "Contacto vía sitio"
+#    continuar: "Continuar"
+#    aquí: "aquí"
+#    questions_support_or_suggestions_get_in_touch: "Dudas, soporte o sugerencias, póngase en contacto"
+#    want_to_get_more_customers: "¿Quieres conseguir más clientes?"
+#  contact_us: "Contáctanos"
+#  date:
+#    abbr_day_names:  [dom, lun, mar, mié, jue, vie, sáb]
+#    abbr_month_names: [~, ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic]
+#    day_names: [~, domingo, lunes, martes, miércoles, jueves, viernes, sábado]
+#    formats:
+#      default: "%d/%m/%Y"
+#      long: "%d de %B de %Y"
+#      short: "%d de %B"
+#    month_names: [~, enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+#    order:
+#      -
+#      - :día
+#      - :mes
+#      - :año
+#  datetime:
+#    distance_in_words:
+#      about_x_hours:
+#        one: "aproximadamente 1 hora"
+#        other: "aproximadamente %{count} horas"
+#      about_x_months:
+#        one: "aproximadamente 1 mes"
+#        other: "aproximadamente %{count} meses"
+#      about_x_years:
+#        one: "aproximadamente 1 año"
+#        other: "aproximadamente %{count} años"
+#      almost_x_years:
+#        one: "casi 1 años"
+#        other: "casi %{count} años"
+#      half_a_minute: "medio minuto"
+#      less_than_x_seconds:
+#        one: "menos de 1 segundo"
+#        other: "menos de %{count} segundos"
+#      less_than_x_minutes:
+#        one: "menos de um minuto"
+#        other: "menos de %{count} minutos"
+#      over_x_years:
+#        one: "más de 1 año"
+#        other: "más de %{count} años"
+#      x_seconds:
+#        one: "1 segundo"
+#        other: "%{count} segundos"
+#      x_minutes:
+#        one: "1 minuto"
+#        other: "%{count} minutos"
+#      x_days:
+#        one: "1 día"
+#        other: "%{count} días"
+#      x_months:
+#        one: "1 mes"
+#        other: "%{count} meses"
+#      x_years:
+#        one: "1 ano"
+#        other: "%{count} años"
+#    prompts:
+#      second: "Segundo"
+#      minute: "Minuto"
+#      hour: "Hora"
+#      day: "Día"
+#      month: "Mes"
+#      year: "Año"
+#  devise:
+#    failure:
+#      unauthenticated: 'Debes iniciar sesión o registrarte antes de continuar.'
+#      unconfirmed: 'Debes confirmar tu cuenta antes de continuar.'
+#      locked: 'Tu cuenta está bloqueada.'
+#      invalid: 'Correo electrónico o contraseña no válidos.'
+#      invalid_token: 'Clave de autenticación no válida.'
+#      timeout: 'Tu sesión ha expirado. Por favor, vuelve a iniciar sesión para continuar.'
+#      inactive: 'Tu cuenta aún no ha sido activada.'
+#    sessions:
+#      signed_in: 'Iniciaste sesión correctamente.'
+#      signed_out: 'Cerraste sesión correctamente.'
+#    passwords:
+#      send_instructions: 'Recibirás un correo electrónico con instrucciones para recuperar tu contraseña en unos minutos.'
+#      updated: 'Tu contraseña ha sido cambiada con éxito. Ahora estás conectado.'
+#    confirmations:
+#      send_instructions: 'Recibirás un correo electrónico con instrucciones sobre cómo recuperar tu cuenta en unos minutos.'
+#      confirmed: 'Tu cuenta ha sido confirmada con éxito. Ahora estás conectado.'
+#    registrations:
+#      signed_up: 'Te has registrado con éxito. Si está habilitada, se enviará una confirmación a tu correo electrónico.'
+#      updated: 'Has actualizado tu cuenta con éxito.'
+#      destroyed: '¡Adiós! Has cancelado tu cuenta con éxito.'
+#    unlocks:
+#      send_instructions: 'Recibirás un correo electrónico con instrucciones sobre cómo desbloquear tu cuenta en unos minutos.'
+#      unlocked: 'Tu cuenta ha sido desbloqueada con éxito. Ahora estás conectado.'
+#    mailer:
+#      confirmation_instructions:
+#        subject: 'Información de confirmación'
+#      reset_password_instructions:
+#        subject: 'Información de recuperación de contraseña'
+#      unlock_instructions:
+#        subject: 'Información de desbloqueo'
+#  filter:
+#    format: "%{attribute} %{message}"
+#    messages:
+#      accepted: "debe ser aceptado"
+#      blank: "no puede estar en blanco"
+#      confirmation: "no es igual a %{attribute}"
+#      empty: "no puede estar vacío"
+#      equal_to: "debe ser igual a %{count}"
+#      even: "debe ser par"
+#      exclusion: "no está disponible"
+#      greater_than: "debe ser mayor que %{count}"
+#      greater_than_or_equal_to: "debe ser mayor o igual a %{count}"
+#      inclusion: "no está incluido en la lista"
+#      invalid: "no es válido"
+#      less_than: "debe ser menor que %{count}"
+#      less_than_or_equal_to: "debe ser menor o igual a %{count}"
+#      model_invalid: 'La validación falló: %{errors}'
+#      not_a_number: "no es un número"
+#      not_an_integer: "no es un número entero"
+#      odd: "debe ser impar"
+#      other_than: "debe ser diferente de %{count}"
+#      present: "debe estar en blanco"
+#      required: "es obligatorio(a)"
+#      taken: "ya está en uso"
+#      too_long:
+#        one: 'es demasiado largo (máximo: 1 carácter)'
+#        other: 'es demasiado largo (máximo: %{count} caracteres)'
+#      too_short:
+#        one: 'es demasiado corto (mínimo: 1 caracter)'
+#        other: 'es demasiado corto (mínimo: %{count} caracteres)'
+#      wrong_length:
+#        one: "no tiene el tamaño esperado (1 caracter)"
+#        other: "no tiene el tamaño esperado (%{count} caracteres)"
+#    template:
+#      body: "Por favor, revise el/los siguiente(s) campo(s):"
+#      header:
+#        one: "No se pudo guardar %{model}: 1 error"
+#        other: "No se pudo guardar %{model}: %{count} errores"
+#    rescue:
+#      fields: "Hay algún campo sin completar o que ya existe."
+#  general:
+#    actions: "Acciones"
+#    back: "Volver"
+#    close: "Cerrar"
+#    contact_us: "Contáctanos"
+#    contact: "Contacto"
+#    copyright: "Todos los derechos reservados."
+#    create: "Crear"
+#    delete: "Eliminar"
+#    edit: "Editar"
+#    editing: "Editando %{model}"
+#    error_message:
+#      denied: "No tienes acceso a esta área."
+#      destroy_error: "Error al eliminar %{model}."
+#      edit_error: "Error al editar %{model}, inténtalo de nuevo más tarde."
+#      error: "Error"
+#      error_at: "Error en"
+#      error_please_try_again: "Se produjo un error. Por favor, inténtalo de nuevo más tarde."
+#      error_try_again: "Se produjo un error, inténtalo de nuevo más tarde."
+#      register_error: "Error al registrar %{model}, inténtalo de nuevo más tarde."
+#      register_error_try_again: "Se produjo un error al registrar, inténtalo de nuevo más tarde."
+#      unexpected: "Error inesperado."
+#    exit: "Salir"
+#    login: "Ingresar"
+#    name: "Nombre"
+#    new: "Nuevo"
+#    newest: "Más recientes"
+#    new_model: "Nuevo(a) %{model}"
+#    new_model_f: "Nueva %{model}"
+#    no_name: "Sin nombre"
+#    no_register_found: "Ningún registro encontrado."
+#    phone: "Teléfono"
+#    phone_number_for_contact: "Número de teléfono de contacto"
+#    product:
+#      one: "Producto"
+#      other: "Productos"
+#    profile: "Perfil"
+#    save: "Guardar"
+#    send_mail: "Enviar correo electrónico"
+#    send_mailto: "Enviar correo electrónico a"
+#    show: "Mostrar"
+#    show_last: "Mostrar último"
+#    settings: "Configuraciones"
+#    show_details: "Mostrar detalles"
+#    update: "Actualizar"
+#    messages:
+#      created: "%{model} creado(a) exitosamente."
+#      confirm: "¿Está seguro(a) que desea eliminar?"
+#      destroyed: "%{model} eliminado(a) exitosamente."
+#      no_register_found: "Registro no encontrado."
+#      status: "Estado de %{model} cambiado(a) exitosamente."
+#      updated: "%{model} actualizado(a) exitosamente."
+#  helpers:
+#    select:
+#      prompt: "Por favor selecione"
+#    submit:
+#      create: "Guardar"
+#      submit: "Guardar"
+#      update: "Guardar"
+#  main:
+#    back_top: "Volver arriba"
+#    controller:
+#      a_complete_software_to_automate_your_project: "Un software completo para automatizar tus proyectos."
+#    home:
+#      brands:
+#        visit_website_of: "Visita el sitio web de la empresa %{company_name}"
+#      brands_that_are_already_driving: "Marcas que ya están impulsando"
+#      customers: "Clientes"
+#      product_services:
+#        meet: "descubre"
+#        see_too: "Descubre también"
+#      your_business_with_our_solutions: "sus negocios con nuestras soluciones"
+#    index:
+#      boost_your_business: "Impulsa tu negocio"
+#      get_to_know_our_tools: "Conoce nuestras herramientas y todos los beneficios que generan para tu negocio"
+#      more_about_nucleus: "Más sobre Nucleus"
+#      with_our_solutions: "con nuestras soluciones"
+#      summary: "Resumen"
+#    partials:
+#      banner:
+#        n_clicherium: "N-Clicherias es un software único, diseñado específicamente para Clicherías"
+#    produto_servico:
+#      download_pdf: "Descarga del pdf sobre %{item_name}"
+#      error:
+#        slug_not_found: "produto-servico/%{slug} no encontrado."
+#  main_controller:
+#    meta_description: "Nucleus tiene como objetivo llevar el primer software totalmente web para la gestión y automatización de Clicherias, Convertidores, Gráficas y Dueños de Marca"
+#    meta_keywords: "Flexografía, Clichería, Gráficas, Aprobación Remota, Convertidores, Flujos de Automatización, Offset, Rotograbado, Agencias de Arte, Dueños de Marca"
+#    meta_title: "Nucleus - Software de Automatización para Clicherias, Convertidores, Gráficas y Dueños de Marca"
+#    page_title: "Nucleus - Software de Automatización para el sector gráfico"
+#    produto_servico:
+#      meta_title: "%{product_service} - Nucleus - Software de Automatización para Clicherías"
+#      meta_description: "Nucleus ha desarrollado el primer y único software web para Clicherías, enfocado en la automatización y gestión de las clicherías."
+#      meta_keywords: "Flexografía, Clichería, Aprobación Remota, Flujos de Automatización, Flujos de Grabación de Clichés, Envío Automático, Gestión de Clichería."
+#  model:
+#    translate:
+#      change_language: "cambiar idioma a %{lang}"
+#      current_language: "idioma actual %{lang}"
+#      languages:
+#        en: "ingles"
+#        es: "español"
+#        pt-BR: "portugues"
+#  nucleus_software: "Nucleus Software para Clicherias, Convertedores e Aprovação Remota"
+#  number:
+#    currency:
+#      format:
+#        delimiter: "."
+#        format: "%u%n"
+#        precision: "2"
+#        separator: ","
+#        significant: "false"
+#        strip_insignificant_zeros: "falso"
+#        unit: "R$"
+#    format:
+#      delimiter: "."
+#      precision: "3"
+#      separator: ","
+#      significant: "falso"
+#      strip_insignificant_zeros: "falso"
+#    human:
+#      decimal_units:
+#        format: "%n %u"
+#        units:
+#          billion: "mil millones"
+#          million: "millón"
+#          quadrillion: "cuatrillón"
+#          thousand: "mil"
+#          trillion: "billón"
+#          unit: ''
+#      format:
+#        delimiter: ''
+#        precision: "3"
+#        significant: "verdad"
+#        strip_insignificant_zeros: "verdad"
+#      storage_units:
+#        format: "%n %u"
+#        units:
+#          byte:
+#            one: "Byte"
+#            other: "Bytes"
+#          eb: "EB"
+#          gb: "GB"
+#          kb: "KB"
+#          mb: "MB"
+#          pb: "PB"
+#          tb: "TB"
+#    percentage:
+#      format:
+#        delimiter: "."
+#        format: "%n%"
+#    precision:
+#      format:
+#        delimiter: "."
+  shared:
+    notification:
+      notification: 'Notification!'
+#    contact:
+#      contact: "contacto"
+#      get_in: "Ingresa en"
+#      if_your_prefer_send_mail_or_call_us: "Si lo prefieres, envíanos un correo electrónico o llámanos"
+#      interested:
+#        line1: "¿Estás interesado?"
+#        line2: "¿Deseas programar una reunión y conocer la plataforma más de cerca?"
+#        line3: "¿Tienes alguna duda sobre Nucleus?"
+#        line4: "¿Te gustaría obtener un presupuesto?"
+#      send_message: "Enviar mensaje"
+#      send_us_a_message: "Envíenos un mensaje y le responderemos lo antes posible."
+#      type_your_message: "Escriba su mensaje"
+#      your_name: "Su nombre"
+#    footer:
+#      back_to_top: "volver arriba"
+#      labels:
+#        contact_links: "Links de contacto: información para contactarnos"
+#        social_media: "Links de Redes Sociales: Redes sociales de Nucleusapp"
+#      company: "Empresa"
+#      coming_soon: "Próximamente"
+#      copy_rights: "Todos los derechos reservados."
+#      news: "Noticias"
+#      objective: "Propósito"
+#      opening_hours: "Horario de atención"
+#      policy: "Política de privacidad"
+#      service_terms: "Términos de servicio"
+#      saturday_service: "Sáb, de 8:00 a.m. a 12:00 p.m."
+#      social_media: "Redes sociales"
+#      technical_support: "Soporte técnico"
+#      weekday_service: "De Lun a Vie, de 8:00 a.m. a 6:00 p.m."
+#    header:
+#      our_products: "Nuestros productos"
+#      our_services: "Nuestros servicios"
+#      our_solutions: "Nuestras soluciones"
+#  send_contato:
+#    error:
+#      sending_email: "Se produjo un error al enviar el correo electrónico."
+#    success:
+#      contact_sent: "Hemos recibido tu mensaje y nos pondremos en contacto contigo a la brevedad posible. ¡Gracias por tu interés en Nucleus!"
+#  support:
+#    array:
+#      last_word_connector: ", y "
+#      two_words_connector: " y "
+#      words_connector: ", "
+#  time:
+#    am: 'am'
+#    formats:
+#      default: "%a, %d de %B de %Y, %H:%M:%S %z"
+#      default_short: "%d de %B de %Y"
+#      long: "%d/%m/%Y a las %H:%M"
+#      short: "%d/%m/%Y"
+#    pm: 'pm'
