@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: resume_generate:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    env_file:
+      - ./credentials.sh
+    command: ["dockerize", "-wait", "tcp://db:5432", "-timeout", "30s", "./bin/rails", "server"]
+    networks:
+      - app-network
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: resume_generate
+      POSTGRES_USER: alex
+      POSTGRES_PASSWORD: 0989
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

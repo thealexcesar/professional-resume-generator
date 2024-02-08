@@ -10,6 +10,7 @@ default: &default
 development:
   <<: *default
   database: professional_resume_generator_development
+
 test:
   <<: *default
   database: professional_resume_generator_test

@@ -1,0 +1,75 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title><%= @data[:name].split[0] %> - Curriculum</title>
+  <style>
+      body {
+          font-family: 'Calibri', sans-serif;
+          color: #333;
+          line-height: 1.5;
+          font-size: 12pt;
+          margin: 0;
+          padding: 0;
+      }
+
+      a {
+          text-decoration: none;
+      }
+
+      header {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      header h1 {
+          font-size: 22pt;
+          margin-bottom: 0;
+      }
+
+      header p {
+          margin: 0;
+      }
+
+      h2 {
+          font-size: 16pt;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          font-weight: bold;
+      }
+
+      h3 {
+          font-size: 14pt;
+          margin-bottom: 4px;
+      }
+
+      p {
+          margin: 0px 0;
+      }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><%= @data['name'] %></h1>
+    <span>
+      <%= t('template_pdf.software_development') %>
+      | Java | React | Ruby | Javascript | PostgreSQL | SASS
+    </span>
+    <hr/>
+  </header>
+
+  <main>
+    <h2>Curriculum Vitae</h2>
+    <%= render 'resume/partials/main' %>
+  </main>
+
+  <footer>
+    <%# TODO! %>
+  </footer>
+
+</body>
+</html>

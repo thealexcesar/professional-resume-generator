@@ -1,0 +1,472 @@
+pt-BR:
+  template_pdf:
+    about: "Desenvolvedor web full-stack com mais de 2 anos de experiência comprovada, especializado em Ruby on Rails,
+             JavaScript, PostgreSQL e SASS. Atuei principalmente no segmento de gráficas e clicherias, onde me destaquei
+             entregando soluções web inovadoras e performáticas, sempre focando na melhor experiência do usuário."
+    computer_science:
+      course: "Bacharelado em Ciência da Computação"
+      start_end: "2021 | janeiro de 2023"
+    computer_engineer:
+      course: "Bacharelado em Engenharia da Computação"
+      start_end: "2020 | Em andamento"
+    contact: "Contato"
+    description: "Descrição"
+    education: "Educação"
+    education_complementary: "Educação Complementar"
+    experience: "Experiência Profissional"
+    full_cycle_details: "Capacidade de arquitetar, desenvolver, testar, fazer deploys e monitorar a aplicação."
+    job_description: "Na Nucleus, colaborei com uma equipe talentosa no desenvolvimento de uma plataforma abrangente destinada às
+                       indústrias gráfica e de conversão. Esta plataforma inclui uma variedade de funcionalidades, como:
+                       Gestão de ordens de produção, Mapeamento de cores, Estimativas e orçamentos, Automação de fluxo de trabalho,
+                       Automação de arquivos, Formulários de teste, Gestão financeira com integrações ERP, Gestão de vendas,
+                       Relatórios abrangentes, Gestão de tarefas, Chat interno, Gestão de expedição e envio, Aprovações remotas,
+                       Funcionalidades CRM, Logs de integração."
+    name: "Alex Cesar da Silva"
+    period: "Período"
+    phone: "Telefone"
+    position: "Posição"
+    start_end: "Janeiro de 2023 | Em progresso"
+    software_development: "Desenvolvimento de Software"
+    software_developer_full_time: "Desenvolvedor de Software - Tempo integral"
+    september_to_august: "Setembro 2021 - agosto 2023 (2 anos)"
+  activerecord:
+    attributes:
+#      errors:
+#        messages:
+#          record_invalid: 'A validação falhou: %{errors}'
+#          restrict_dependent_destroy:
+#            has_one: "Não é possível excluir o registro pois existe um %{record} dependente"
+#            has_many: "Não é possível excluir o registro pois existem %{record} dependentes"
+      category:
+        device: "Dispositivo"
+        language: "Idioma"
+        parent_category_id: "Categoria"
+        title: "Título"
+      image:
+        favorite: "Favorito"
+        filename: "Nome da imagem"
+        image_type: "Tipo de imagem"
+        size: "Tamanho do arquivo"
+      project:
+        description: "Descrição"
+        language: "Idioma"
+        os: "Sistema operacional"
+        published: "Publicado"
+      seo:
+        author: "Autor"
+        description: "Descrição"
+        keywords: "Palavra-chave"
+        project_id: "Projeto"
+        site_name: "Nome do site"
+        title: "Título"
+      user:
+        email: "Email"
+        password: "Senha"
+        password_confirmation: "Confirmação de senha"
+        remember_me: "Lembre-me"
+    models:
+      category:
+        one: "Categoria"
+        other: "Categorias"
+      image:
+        one: "Imagem"
+        other: "Imagens"
+      project:
+        one: "Projeto"
+        other: "Projetos"
+      seo:
+        one: "Seo"
+        other: "Seos"
+      user:
+        one: "Usuário"
+        other: "Usuários"
+#  application_helper:
+#    meta_title: "NUCLEUS Software de Automação e Aprovação Remota para Clicherias e Convertedores"
+#    meta_description: "A Nucleus tem por objetivo levar o primeiro software totalmente web gráfico para gestão e automação de Clicherias e Convertedores e aprovação remota."
+#    meta_keywords: "Clicheria, Gráficas, Aprovação Remota, Fluxos de Automação, Offset, Rotogravura, Agências de artes"
+#    page_title: "NUCLEUS - Software de gestão e automação para Clicherias, Convertedores e Aprovação Remota"
+#  application_title: "Software de Aprovação Remota, Comercial e Clicherias"
+#  btn:
+#    edit: "Editar"
+#    delete: "Apagar"
+#    save: "Salvar"
+#    show: "Mostrar"
+#    view: "Visualizar"
+#  coming_soon: "Novidades chegando para você!!!"
+#  confirm:
+#    destroy: "Tem certeza que deseja deletar?"
+#  contact_notifier:
+#    join_the_nucleus_erp_and_win_more_customers: "Faça parte do ERP Nucleus, e conquiste mais clientes!"
+#    contact: "Contato via site"
+#    continue: "Continuar"
+#    here: "aqui"
+#    questions_support_or_suggestions_get_in_touch: "Dúvidas, suporte ou sugestão, entre em contanto"
+#    want_to_get_more_customers: "Quer obter mais clientes?"
+#  contact_us: "Fale Conosco"
+#  date:
+#    abbr_day_names: [dom, seg, ter, qua, qui, sex, sáb]
+#    abbr_month_names: [~, jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez]
+#    day_names: [~, domingo, segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado]
+#    formats:
+#      default: "%d/%m/%Y"
+#      long: "%d de %B de %Y"
+#      short: "%d de %B"
+#    month_names: [~, janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro]
+#    order:
+#      -
+#      - :dia
+#      - :mês
+#      - :ano
+#  datetime:
+#    distance_in_words:
+#      about_x_hours:
+#        one: "aproximadamente 1 hora"
+#        other: "aproximadamente %{count} horas"
+#      about_x_months:
+#        one: "aproximadamente 1 mês"
+#        other: "aproximadamente %{count} meses"
+#      about_x_years:
+#        one: "aproximadamente 1 ano"
+#        other: "aproximadamente %{count} anos"
+#      almost_x_years:
+#        one: "quase 1 ano"
+#        other: "quase %{count} anos"
+#      half_a_minute: "meio minuto"
+#      less_than_x_seconds:
+#        one: "menos de 1 segundo"
+#        other: "menos de %{count} segundos"
+#      less_than_x_minutes:
+#        one: "menos de um minuto"
+#        other: "menos de %{count} minutos"
+#      over_x_years:
+#        one: "mais de 1 ano"
+#        other: "mais de %{count} anos"
+#      x_seconds:
+#        one: "1 segundo"
+#        other: "%{count} segundos"
+#      x_minutes:
+#        one: "1 minuto"
+#        other: "%{count} minutos"
+#      x_days:
+#        one: "1 dia"
+#        other: "%{count} dias"
+#      x_months:
+#        one: "1 mês"
+#        other: "%{count} meses"
+#      x_years:
+#        one: "1 ano"
+#        other: "%{count} anos"
+#    prompts:
+#      second: "Segundo"
+#      minute: "Minuto"
+#      hour: "Hora"
+#      day: "Dia"
+#      month: "Mês"
+#      year: "Ano"
+#  devise: #TODO!!!!!!! REMOVE DEVISE...
+#    failure:
+#      unauthenticated: 'Você precisa logar-se ou cadastrar-se antes de continuar.'
+#      unconfirmed: 'Você precisa confirmar sua conta antes de continuar.'
+#      locked: 'Sua conta está bloqueada.'
+#      invalid: 'E-mail ou senha inválida.'
+#      invalid_token: 'Chave de autenticação inválida.'
+#      timeout: 'Sua sessão espirou, por favor logue-se novamente para continuar.'
+#      inactive: 'Sua conta ainda não foi ativada.'
+#    sessions:
+#      new:
+#        signin_to_start_your_session: "Faça login para iniciar sua sessão"
+#      signed_in: 'Logado com sucesso.'
+#      signed_out: 'Deslogado com sucesso.'
+#    shared:
+#      links:
+#        forgot_your_password: "Esqueceu sua senha?"
+#        signup: "Inscrever-se"
+#    passwords:
+#      new:
+#        you_forgot_your_password: "Você esqueceu sua senha? Aqui você pode facilmente recuperar uma nova senha."
+#        send_me_instructions: "Envie-me instruções de redefinição de senha"
+#      send_instructions: 'Você receberá um email com instruções sobre a recuperação da senha em alguns minutos.'
+#      updated: 'Sua senha foi alterada com sucesso. Agora você está logado.'
+#    confirmations:
+#      send_instructions: 'Você receberá um email com instruções sobre como recuperar sua conta em alguns minutos.'
+#      confirmed: 'Sua conta foi confirmada com sucesso. Agora você está logado.'
+#    registrations:
+#      signed_up: 'Você se cadastrou com sucesso. Se habilitado, a confirmação será enviada para seu e-mail.'
+#      updated: 'Você atualizou sua conta com sucesso.'
+#      destroyed: 'Tchau! Sua conta foi cancelada com sucesso.'
+#    unlocks:
+#      send_instructions: 'Você receberá um e-mail com instruções sobre como desbloquear sua conta em alguns minutos.'
+#      unlocked: 'Sua conta foi desbloqueada com sucesso. Você agora está logado.'
+#    mailer:
+#      confirmation_instructions:
+#        subject: 'Informações de confirmação'
+#      reset_password_instructions:
+#        subject: 'Informações de recuperação de senha'
+#      unlock_instructions:
+#        subject: 'Informações de desbloqueio'
+#        filter:
+#    format: "%{attribute} %{message}"
+#    messages:
+#      accepted: "deve ser aceito"
+#      blank: "não pode ficar em branco"
+#      confirmation: "não é igual a %{attribute}"
+#      empty: "não pode ficar vazio"
+#      equal_to: "deve ser igual a %{count}"
+#      even: "deve ser par"
+#      exclusion: "não está disponível"
+#      greater_than: "deve ser maior que %{count}"
+#      greater_than_or_equal_to: "deve ser maior ou igual a %{count}"
+#      inclusion: "não está incluído na lista"
+#      invalid: "não é válido"
+#      less_than: "deve ser menor que %{count}"
+#      less_than_or_equal_to: "deve ser menor ou igual a %{count}"
+#      model_invalid: 'A validação falhou: %{errors}'
+#      not_a_number: "não é um número"
+#      not_an_integer: "não é um número inteiro"
+#      odd: "deve ser ímpar"
+#      other_than: "deve ser diferente de %{count}"
+#      present: "deve ficar em branco"
+#      required: "é obrigatório(a)"
+#      taken: "já está em uso"
+#      too_long:
+#        one: 'é muito longo (máximo: 1 caracter)'
+#        other: 'é muito longo (máximo: %{count} caracteres)'
+#      too_short:
+#        one: 'é muito curto (mínimo: 1 caracter)'
+#        other: 'é muito curto (mínimo: %{count} caracteres)'
+#      wrong_length:
+#        one: "não possui o tamanho esperado (1 caracter)"
+#        other: "não possui o tamanho esperado (%{count} caracteres)"
+#    template:
+#      body: 'Por favor, verifique o(s) seguinte(s) campo(s):'
+#      header:
+#        one: 'Não foi possível gravar %{model}: 1 erro'
+#        other: 'Não foi possível gravar %{model}: %{count} erros'
+#    rescue:
+#      fields: "Há algum campo não preenchido ou já existente."
+#  general:
+#    actions: "Ações"
+#    back: "Voltar"
+#    close: "Fechar"
+#    contact_us: "Entre em contato"
+#    contact: "Contato"
+#    copyright: "Todos os direitos reservados."
+#    create: "Criar"
+#    delete: "Apagar"
+#    edit: "Editar"
+#    editing: "Editando %{model}"
+#    error_message:
+#      denied: "Você não tem acesso a essa area."
+#      destroy_error: "Erro ao deletar %{model}."
+#      edit_error: "Erro ao editar %{model}, Tente novamente mais tarde."
+#      error: "Erro"
+#      error_at: "Erro em"
+#      error_please_try_again: "Ocorreu um erro. Por favor, tente novamente mais tarde."
+#      error_try_again: "Ocorreu um erro, tente novamente mais tarde."
+#      register_error: "Erro ao cadastrar %{model}, tente novamente mais tarde."
+#      register_error_try_again: "Ocorreu um erro ao cadastrar, tente novamente mais tarde."
+#      slug_not_found: "%s não encontrado."
+#      unexpected: "Erro inesperado."
+#    exit: "Sair"
+#    login: "Entrar"
+#    name: "Nome"
+#    new: "Novo"
+#    newest: "Mais recentes"
+#    new_model: "Novo %{model}"
+#    new_model_f: "Nova %{model}"
+#    no_name: "Sem nome"
+#    no_register_found: "Nenhum registro encontrado."
+#    phone: "Telefone"
+#    phone_number_for_contact: "Telefone para contato"
+#    product:
+#      one: "Produto"
+#      other: "Produtos"
+#    profile: "Perfil"
+#    save: "Salvar"
+#    send_mail: "Enviar email"
+#    send_mailto: "Enviar email para"
+#    show: "Mostrar"
+#    show_last: "Mostrar último"
+#    settings: "Configurações"
+#    show_details: "Mostrar detalhes"
+#    update: "Atualizar"
+#    messages:
+#      created: "%{model} criado(a) com sucesso."
+#      confirm: "Tem certeza que deseja deletar?"
+#      destroyed: "%{model} deletado(a) com sucesso."
+#      no_register_found: "Nenhum registro encontrado."
+#      status: "Status alterado com sucesso para %{model}."
+#      updated: "%{model} atualizado(a) com sucesso."
+#  helpers:
+#    select:
+#      prompt: "Por favor selecione"
+#    submit:
+#      create: "Salvar" # Criar %{model}
+#      submit: "Salvar" # Salvar %{model}
+#      update: "Salvar" # Atualizar %{model}"
+#  blog:
+#    all_blogs: "Todas as notícias"
+#    controller:
+#      meta_title: "%s - Nucleus - Software de Automação para Clicherias"
+#      meta_description: "A Nucleus desenvolveu o primeiro e único software web para Clicherias, totalmente focado em automação e gestão de clicherias "
+#      meta_keywords: "Flexografia, Clicheria, Aprovação Remota, Fluxos de Automação, Fluxos de Gravação de Clichês, Envio Automático, Gestão Clicheria"
+#    newest_blog: "Notícias recentes"
+#    search: "Buscar..."
+#  main:
+#    back_top: "Voltar ao topo"
+#    controller:
+#      a_complete_software_to_automate_your_project: "Um software completo para automatizar seus projetos"
+#    resume:
+#      brands:
+#        visit_website_of: "Visite o site da empresa %{company_name}"
+#      brands_that_are_already_driving: "Marcas que já estão impulsionando"
+#      customers: "Clientes"
+#      product_services:
+#        meet: "conheça"
+#        see_too: "Veja tambem"
+#      your_business_with_our_solutions: "seus negócios com nossas soluções"
+#    index:
+#      boost_your_business: "Impulsione sua empresa"
+#      get_to_know_our_tools: "Conheça as nossas ferramentas e todos os benefícios que geram para a sua empresa"
+#      more_about_nucleus: "Mais sobre a Nucleus"
+#      with_our_solutions: "com as nossas soluções"
+#    summary: "Resumo"
+#    partials:
+#      banner:
+#        n_clicherium: "N-Clicherias único software, destinado especificamente para Clicherias"
+#    produto_servico:
+#      download_pdf: "Download de pdf sobre o(a) %{item_name}"
+#  main_controller:
+#    meta_description: "A Nucleus tem por objetivo levar o primeiro software, totalmente web, para gestão e automação de Clicherias, Convertedores, Gráficas e Donos de Marca"
+#    meta_keywords: "Flexografia, Clicheria, Gráficas, Aprovação Remota, Convertedores, Fluxos de Automação, Offset, Rotogravura, Agências de artes, Donos de Marca"
+#    meta_title: "Nucleus - Software de Automação para Clicherias, Convertedores, Gráficas e Donos de Marca"
+#    page_title: "Nucleus - Software de Automação para Segmento Gráfico"
+#    produto_servico:
+#      meta_title: "%{product_service} - Nucleus - Software de Automação para Clicherias"
+#      meta_description: "A Nucleus desenvolveu o primeiro e único software web para Clicherias, totalmente focado em automação e gestão de clicherias "
+#      meta_keywords: "Flexografia, Clicheria, Aprovação Remota, Fluxos de Automação, Fluxos de Gravação de Clichês, Envio Automático, Gestão Clicheria"
+#  model:
+#    translate:
+#      change_language: "Trocar idioma para %{lang}"
+#      current_language: "Idioma atual %{lang}"
+#      languages:
+#        en: "inglês"
+#        es: "espanhol"
+#        pt-BR: "português"
+#  nucleus_software: "Nucleus Software para Clicherias, Convertedores e Aprovação Remota"
+#  number:
+#    currency:
+#      format:
+#        delimiter: "."
+#        format: "%u%n"
+#        precision: "2"
+#        separator: ","
+#        significant: "false"
+#        strip_insignificant_zeros: "falso"
+#        unit: "R$"
+#    format:
+#      delimiter: "."
+#      precision: "3"
+#      separator: ","
+#      significant: "falso"
+#      strip_insignificant_zeros: "falso"
+#    human:
+#      decimal_units:
+#        format: "%n %u"
+#        units:
+#          billion: "bilhão"
+#          million: "milhão"
+#          quadrillion: "quadrilhão"
+#          thousand: "mil"
+#          trillion: "trilhão"
+#          unit: ''
+#      format:
+#        delimiter: ''
+#        precision: "3"
+#        significant: "verdade"
+#        strip_insignificant_zeros: "verdade"
+#      storage_units:
+#        format: "%n %u"
+#        units:
+#          byte:
+#            one: "Byte"
+#            other: "Bytes"
+#          eb: "EB"
+#          gb: "GB"
+#          kb: "KB"
+#          mb: "MB"
+#          pb: "PB"
+#          tb: "TB"
+#    percentage:
+#      format:
+#        delimiter: "."
+#        format: "%n%"
+#    precision:
+#      format:
+#        delimiter: "."
+  shared:
+    notification:
+      notification: 'Notificação!'
+#    contact:
+#      contact: "contato"
+#      get_in: "Entre em"
+#      if_your_prefer_send_mail_or_call_us: "Se preferir, envie um e-mail ou ligue para nós"
+#      interested:
+#        line1: "Ficou interessado?"
+#        line2: "Deseja marcar uma conversa e conhecer a plataforma mais de perto?"
+#        line3: "Tem alguma dúvida sobre a Nucleus?"
+#        line4: "Gostaria de um orçamento?"
+#      send_message: "Enviar mensagem"
+#      send_us_a_message: "Envie-nos uma mensagem que lhe retornaremos o mais breve possível."
+#      type_your_message: "Escreva sua mensagem"
+#      your_name: "Seu nome"
+#    footer:
+#      back_to_top: "voltar ao topo"
+#      labels:
+#        contact_links: "Links de contato: informações para entrar em contato conosco"
+#        social_media: "Links de redes sociais: redes sociais Nucleusapp"
+#      company: "Empresa"
+#      coming_soon: "Em breve"
+#      copy_rights: "Todos os direitos reservados."
+#      news: "Notícias"
+#      objective: "Propósito"
+#      opening_hours: "Horário de atendimento"
+#      policy: "Politica de Privacidade"
+#      service_terms: "Termos de Serviço"
+#      saturday_service: "sáb, 8h às 12h."
+#      social_media: "Redes Sociais"
+#      technical_support: "Suporte técnico"
+#      weekday_service: "Seg a Sex, 8h às 18h."
+#    header:
+#      our_products: "Nossos produtos"
+#      our_services: "Nossos serviços"
+#      our_solutions: "Nossas soluções"
+#  send_contato:
+#    error:
+#      sending_email: "Ocorreu um erro no envio de email."
+#    success:
+#      contact_sent: "Contato enviado com sucesso para a equipe do Nucleus, em breve entraremos em contato com você."
+#  support:
+#    array:
+#      last_word_connector: ", e "
+#      two_words_connector: " e "
+#      words_connector: ", "
+#  time:
+#    am: 'am'
+#    formats:
+#      default: "%a, %d de %B de %Y às %H:%M:%S"
+#      default_short: "%d de %B de %Y"
+#      long: "%d/%m/%Y às %H:%M"
+#      short: "%d/%m/%Y"
+#    pm: 'pm'
+#  will_paginate:
+#    page_aria_label: "%{controller} - página %{page}"
+#    previous_label: "anterior"
+#    next_label: "próximo"
+#    page_entries_info:
+#      single_page_html:
+#        zero: "Nenhum registro encontrado"
+#        one: "Apenas 1 registro encontrado"
+#        other: "Mostrando todos os %{count} registros encontrados"
+#      multi_page: "Mostrando registros %{from} até %{to} de %{count} no total"
+#      multi_page_html: "Mostrando registros %{from} até %{to} de %{count} no total"

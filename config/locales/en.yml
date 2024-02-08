@@ -1,31 +1,446 @@
-# Files in the config/locales directory are used for internationalization and
-# are automatically loaded by Rails. If you want to use locales other than
-# English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more about the API, please read the Rails Internationalization guide
-# at https://guides.rubyonrails.org/i18n.html.
-#
-# Be aware that YAML interprets the following case-insensitive strings as
-# booleans: `true`, `false`, `on`, `off`, `yes`, `no`. Therefore, these strings
-# must be quoted to be interpreted as strings. For example:
-#
-#     en:
-#       "yes": yup
-#       enabled: "ON"
-
 en:
-  hello: "Hello world"
+  template_pdf:
+    about: "Full-stack web developer specializing in Ruby on Rails, JavaScript, PostgreSQL,
+               and SASS, with a proven track record spanning over 2 years. My expertise lies in 
+               delivering innovative web solutions, particularly within the graphic sector."
+    computer_science:
+      course: "Bachelor of Computer Science"
+      start_end: "2021 | January 2023"
+    computer_engineer:
+      course: "Bachelor of Computer Engineering"
+      start_end: "2020 | In progress"
+    contact: "Contact"
+    description: "Description"
+    education: "Education"
+    education_complementary: "Education Complementary"
+    experience: "Professional Experience"
+    full_cycle_details: "Ability to architect, develop, test, deploy, and eventually monitor the application."
+    job_description: "At Nucleus, I collaborated with a talented team on the development of a comprehensive platform for
+                       the graphic and conversion industries. This platform includes a variety of functionalities such as Production Order
+                       Management, Color Mapping, Estimates and Budgets, Workflow Automation, File Automation, Test Forms, Financial
+                       Management with ERP integrations, Sales Management, Comprehensive Reports, Task Management, Internal Chat,
+                       Shipping and Dispatch Management, Remote Approvals, CRM Features, and Integration Logs."
+    name: "Alex Cesar da Silva  "
+    period: "Period"
+    phone: "phone"
+    position: "position"
+    start_end: "January 2023 | In progress"
+    software_development: "Software development"
+    software_developer_full_time: "Software Developer - Full-time"
+    september_to_august: "September 2021 - August 2023 (2 years)"
+  activerecord:
+    attributes:
+#      errors:
+#        messages:
+#          record_invalid: 'Validation failed: %{errors}'
+#          restrict_dependent_destroy:
+#            has_one: "Cannot delete the record because there is a dependent %{record}"
+#            has_many: "Cannot delete the record because there are %{record} dependents"
+      category:
+        device: "Device"
+        language: "Language"
+        parent_category_id: "Category"
+        title: "Title"
+      image:
+        favorite: "Favorite"
+        filename: "Image name"
+        image_type: "Image type"
+        size: "File size"
+      project:
+        description: "Description"
+        language: "Language"
+        os: "Operating system"
+        published: "Published"
+      seo:
+        author: "Author"
+        description: "Description"
+        keywords: "Keyword"
+        project_id: "Project"
+        site_name: "Site name"
+        title: "Title"
+      user:
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+        remember_me: "Remember me"
+    models:
+      category:
+        one: "Category"
+        other: "Categories"
+      image:
+        one: "Image"
+        other: "Images"
+      project:
+        one: "Project"
+        other: "Projects"
+      seo:
+        one: "Seo"
+        other: "Seos"
+      user:
+        one: "User"
+        other: "Users"
+
+#  application_helper:
+#    meta_title: "NUCLEUS Software for Automation and Remote Approval for Plate Making and Converters"
+#    meta_description: "NUCLEUS aims to provide the first fully web-based graphic software for managing and automating Plate Making and converters, and remote approval."
+#    meta_keywords: "Plate Making, Graphics, Remote Approval, Automation Workflows, Offset, Rotogravure, Art Agencies"
+#    page_title: "NUCLEUS - Management and Automation Software for Plate Making, Converters, and Remote Approval."
+#    application_title: "Software de Aprovação Remota, Comercial e Plate Making"
+#  application_title: "Remote Approval Software, Commercial and Plate Making"
+#  btn:
+#    edit: "Edit"
+#    delete: "Delete"
+#    save: "Save"
+#    show: "Show"
+#    view: "view"
+#  coming_soon: "News comming soon for you!"
+#  confirm:
+#    destroy: "Are you sure you want to delete?"
+#  contact_notifier:
+#    join_the_nucleus_erp_and_win_more_customers: "join the Nucleus ERP and win more customers!"
+#    contact: "Contato via site"
+#    continue: "Continue"
+#    here: "here"
+#    questions_support_or_suggestions_get_in_touch: "Questions support, or suggestions?"
+#    want_to_get_more_customers: "Want to get more customers?"
+#  contact_us: "Contact us"
+#  date:
+#    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
+#    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Ocr, Nov, Dec]
+#    day_names: [~, Sunday, monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+#    formats:
+#      default: "%m/%d/%Y"
+#      long: "%B %d, %Y"
+#      short: "%B %d"
+#    month_names: [~, January, February, March, April, May, June, july, August, September, October, November, December]
+#    order:
+#      -
+#      - :day
+#      - :month
+#      - :year
+#  datetime:
+#    distance_in_words:
+#      about_x_hours:
+#        one: "about 1 hour"
+#        other: "about %{count} hours"
+#      about_x_months:
+#        one: "about 1 month"
+#        other: "about %{count} months"
+#      about_x_years:
+#        one: "about 1 year"
+#        other: "about %{count} years"
+#      almost_x_years:
+#        one: "almost 1 year"
+#        other: "almost %{count} years"
+#      half_a_minute: "half a minute"
+#      less_than_x_seconds:
+#        one: "less than 1 second"
+#        other: "less than %{count} seconds"
+#      less_than_x_minutes:
+#        one: "less than 1 minute"
+#        other: "less than %{count} minutes"
+#      over_x_years:
+#        one: "more than 1 year"
+#        other: "more than %{count} years"
+#      x_seconds:
+#        one: "1 second"
+#        other: "%{count} seconds"
+#      x_minutes:
+#        one: "1 minute"
+#        other: "%{count} minutes"
+#      x_days:
+#        one: "1 day"
+#        other: "%{count} days"
+#      x_months:
+#        one: "1 month"
+#        other: "%{count} months"
+#      x_years:
+#        one: "1 year"
+#        other: "%{count} years"
+#    prompts:
+#      second: "Second"
+#      minute: "minute"
+#      hour: "hour"
+#      day: "Day"
+#      month: "Month"
+#      year: "Year"
+#  devise:
+#    failure:
+#      unauthenticated: 'You need to log in or sign up before continuing.'
+#      unconfirmed: 'You need to confirm your account before continuing.'
+#      locked: 'Your account is locked.'
+#      invalid: 'Invalid email or password.'
+#      invalid_token: 'Invalid authentication key.'
+#      timeout: 'Your session has expired, please log in again to continue.'
+#      inactive: 'Your account has not been activated yet.'
+#    sessions:
+#      signed_in: 'Signed in successfully.'
+#      signed_out: 'Signed out successfully.'
+#    passwords:
+#      send_instructions: 'You will receive an email with instructions on how to reset your password in a few minutes.'
+#      updated: 'Your password has been changed successfully. You are now signed in.'
+#  confirmations:
+#    send_instructions: 'You will receive an email with instructions on how to confirm your account in a few minutes.'
+#    confirmed: 'Your account has been confirmed successfully. You are now signed in.'
+#  registrations:
+#    signed_up: 'You have signed up successfully. If enabled, a confirmation will be sent to your email.'
+#    updated: 'Your account has been updated successfully.'
+#    destroyed: 'Bye! Your account has been cancelled successfully.'
+#  unlocks:
+#    send_instructions: 'You will receive an email with instructions on how to unlock your account in a few minutes.'
+#    unlocked: 'Your account has been unlocked successfully. You are now signed in.'
+#  mailer:
+#    confirmation_instructions:
+#      subject: 'Confirmation instructions'
+#    reset_password_instructions:
+#      subject: 'Reset password instructions'
+#    unlock_instructions:
+#      subject: 'Unlock instructions'
+#  filter:
+#    format: "%{attribute} %{message}"
+#    messages:
+#      accepted: "must be accepted"
+#      blank: "can't be blank"
+#      confirmation: "doe's not match %{attribute}"
+#      empty: "can't be empty"
+#      equal_to: "must be equal to %{count}"
+#      even: "must be even"
+#      exclusion: "is not available"
+#      greater_than: "must be greater than %{count}"
+#      greater_than_or_equal_to: "must be greater than or equal to %{count}"
+#      inclusion: "is not included in the list"
+#      invalid: "is invalid"
+#      less_than: "must be less than %{count}"
+#      less_than_or_equal_to: "must be less than or equal to %{count}"
+#      model_invalid: "Validation failed: %{errors}"
+#      not_a_number: "is not a number"
+#      not_an_integer: "must be an integer"
+#      odd: "must be odd"
+#      other_than: "must be other than %{count}"
+#      present: "must be blank"
+#      required: "is required"
+#      taken: "has already been taken"
+#      too_long:
+#        one: 'is too long (maximum: 1 caracter)'
+#        other: 'is too long (maximum: %{count} caracters)'
+#      too_short:
+#        one: 'is too short (minimum: 1 caracter)'
+#        other: 'is too short (minimum: %{count} caracters)'
+#      wrong_length:
+#        one: "is not the expected length (1 caracter)"
+#        other: "is not the expected length (%{count} caracters)"
+#    template:
+#      body: 'Please check the following field(s):'
+#      header:
+#        one: 'Could not save %{model}: 1 error'
+#        other: 'Could not save %{model}: %{count} errors'
+#    rescue:
+#      fields: "There is some field not filled in or already exists."
+#  general:
+#    actions: "Actions"
+#    back: "Back"
+#    close: "Close"
+#    contact_us: "Contact us"
+#    contact: "Contact"
+#    copyright: "All rights reserved."
+#    create: "Create"
+#    delete: "Delete"
+#    edit: "Edit"
+#    editing: "Editing %{model}"
+#    error_message:
+#      denied: "You do not have access to this area."
+#      destroy_error: "Error deleting %{model}."
+#      edit_error: "Error editing %{model}, please try again later."
+#      error: "Error"
+#      error_at: "Error at"
+#      error_please_try_again: "An error occurred. Please try again later."
+#      error_try_again: "An error occurred, please try again later."
+#      register_error: "Error registering %{model}, please try again later."
+#      register_error_try_again: "An error occurred while registering, please try again later."
+#      unexpected: "Unexpected error."
+#    exit: "Exit"
+#    login: "Log in"
+#    name: "Name"
+#    new: "New"
+#    newest: "Newest"
+#    new_model: "New %{model}"
+#    new_model_f: "New %{model}"
+#    no_name: "No name"
+#    no_register_found: "No record found."
+#    phone: "Phone"
+#    phone_number_for_contact: "Phone number for contact"
+#    product:
+#      one: "Product"
+#      other: "Products"
+#    profile: "Profile"
+#    save: "Save"
+#    send_mail: "Send email"
+#    send_mailto: "Send email to"
+#    show: "Show"
+#    show_last: "Show last"
+#    settings: "Settings"
+#    show_details: "Show details"
+#    update: "Update"
+#    messages:
+#      created: "%{model} created successfully."
+#      confirm: "Are you sure you want to delete?"
+#      destroyed: "%{model} deleted successfully."
+#      no_register_found: "No register found."
+#      status: "Status changed successfully for %{model}."
+#      updated: "%{model} updated successfully."
+#  helpers:
+#    select:
+#      prompt: "Please select"
+#    submit:
+#      create: "Save"
+#      submit: "Save"
+#      update: "Save"
+#  main:
+#    back_top: "Back to top"
+#    controller:
+#      a_complete_software_to_automate_your_project: "A complete software to automate your projects"
+#    resume:
+#      brands:
+#        visit_website_of: "Visit the website of company %{company_name}"
+#      brands_that_are_already_driving: "Brands that already diving growth"
+#      customers: "Customers"
+#      product_services:
+#        meet: "explore"
+#        see_too: "See also"
+#      your_business_with_our_solutions: "Grow your business with our solutions"
+#    index:
+#      boost_your_business: "Boost your business"
+#      get_to_know_our_tools: "Discover our tools and all the benefits they generate for your company."
+#      more_about_nucleus: "More about Nucleus"
+#      with_our_solutions: "With our solutions"
+#    summary: "Summary"
+#    partials:
+#      banner:
+#        n_clicherium: "N-Clichés the unique software specially designed for Plate Making"
+#    produto_servico:
+#      download_pdf: "Download pdf about the %{item_name}"
+#      error:
+#        slug_not_found: "product-service/%{slug} not found."
+#  main_controller:
+#    meta_description: "Nucleus aims to bring the first fully web-based software for management and automation of Plate Making, Converters, Printers and Brand Owners"
+#    meta_keywords: "Flexography, Plate Making, Printers, Remote Approval, Converters, Automation Flows, Offset, Rotogravure, Art Agencies, Brand Owners"
+#    meta_title: "Nucleus - Automation Software for Plate Making, Converters, Printers and Brand Owners"
+#    page_title: "Nucleus - Automation Software for Graphic Segment"
+#    produto_servico:
+#      meta_title: "%{product_service} - Nucleus - Automation Software for Plate Making"
+#      meta_description: "Nucleus has developed the first and only web-based software for Plate Making, fully focused on automation and management of Plate Making."
+#      meta_keywords: "Flexography, Plate Making, Remote Approval, Automation Flows, Cliché Recording Flows, Automatic Submission, Cliché Management"
+#  model:
+#    translate:
+#      change_language: "switch language to %{lang}"
+#      current_language: "current language %{lang}"
+#      languages:
+#        en: "english"
+#        es: "spanish"
+#        pt-BR: "portuguese"
+#  nucleus_software:  "Nucleus Software for Plate Making, Converters, and Remote Approval"
+#  number:
+#    currency:
+#      format:
+#        delimiter: "."
+#        format: "%u%n"
+#        precision: "2"
+#        separator: ","
+#        significant: "false"
+#        strip_insignificant_zeros: "false"
+#        unit: "$"
+#    format:
+#      delimiter: ","
+#      precision: "3"
+#      separator: "."
+#      significant: "false"
+#      strip_insignificant_zeros: "false"
+#    human:
+#      decimal_units:
+#        format: "%n %u"
+#        units:
+#          billion: "billion"
+#          million: "million"
+#          quadrillion: "quadrillion"
+#          thousand: "thousand"
+#          trillion: "trillion"
+#          unit: ''
+#      format:
+#        delimiter: ''
+#        precision: "3"
+#        significant: "true"
+#        strip_insignificant_zeros: "true"
+#      storage_units:
+#        format: "%n %u"
+#        units:
+#          byte:
+#            one: "Byte"
+#            other: "Bytes"
+#          eb: "EB"
+#          gb: "GB"
+#          kb: "KB"
+#          mb: "MB"
+#          pb: "PB"
+#          tb: "TB"
+#    percentage:
+#      format:
+#        delimiter: "."
+#        format: "%n%"
+#    precision:
+#      format:
+#        delimiter: "."
+  shared:
+    notification:
+      notification: 'Notification!'
+#    contact:
+#      contact: "touch"
+#      get_in: "Get in"
+#      if_your_prefer_send_mail_or_call_us: "If you prefer, you can send us an email or give us a call "
+#      interested:
+#        line1: "Are you interested?"
+#        line2: "Would you like to schedule a conversation and get to know the platform better?"
+#        line3: "Do you have any questions about Nucleus?"
+#        line4: "Would you like a quote?"
+#      send_message: "Send message"
+#      send_us_a_message: "Send us a message and we will get back to you as soon as possible."
+#      type_your_message: "Type your message"
+#      your_name: "Your name"
+#    footer:
+#      back_to_top: "Back to top"
+#      labels:
+#        contact_links: "Contact links: information to contact us"
+#        social_media: "Social Network Links: Nucleusapp social networks"
+#      company: "Company"
+#      coming_soon: "Coming soon"
+#      copy_rights: "All rights reserved."
+#      news: "News"
+#      objective: "Purpose"
+#      opening_hours: "Opening hours"
+#      policy: "Privacy Policy"
+#      service_terms: "Service Terms"
+#      saturday_service: "Sat, 8am to 12pm"
+#      social_media: "Social Media"
+#      technical_support: "Technical support"
+#      weekday_service: "mon to Fri, 8h to 18h."
+#    header:
+#      our_products: "Our products"
+#      our_services: "Our services"
+#      our_solutions: "Our solutions"
+#  send_contato:
+#    error:
+#      sending_email: "There was an error sending email."
+#    success:
+#      contact_sent: "Contact successfully sent to the Nucleus team. We will get back to you soon."
+#  support:
+#    array:
+#      last_word_connector: ", and "
+#      two_words_connector: " and "
+#      words_connector: ", "
+#  time:
+#    am: 'am'
+#    formats:
+#      default: "%a, %B %d, %Y, %H:%M:%S %z"
+#      default_short: "%B %d, %Y"
+#      long: "%m/%d/%Y at %H:%M"
+#      short: "%m/%d/%Y"
+#    pm: 'pm'
