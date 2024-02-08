@@ -1,5 +1,8 @@
 pt-BR:
   template_pdf:
+    about: "Desenvolvedor web full-stack com mais de 2 anos de experiência comprovada, especializado em Ruby on Rails,
+             JavaScript, PostgreSQL e SASS. Atuei principalmente no segmento de gráficas e clicherias, onde me destaquei
+             entregando soluções web inovadoras e performáticas, sempre focando na melhor experiência do usuário."
     computer_science:
       course: "Bacharelado em Ciência da Computação"
       start_end: "2021 | janeiro de 2023"
@@ -22,9 +25,6 @@ pt-BR:
     period: "Período"
     phone: "Telefone"
     position: "Posição"
-    rails: "Desenvolvedor web full-stack com mais de 2 anos de experiência comprovada, especializado em Ruby on Rails,
-             JavaScript, PostgreSQL e SASS. Atuei principalmente no segmento de gráficas e clicherias, onde me destaquei
-             entregando soluções web inovadoras e performáticas, sempre focando na melhor experiência do usuário."
     start_end: "Janeiro de 2023 | Em progresso"
     software_development: "Desenvolvimento de Software"
     software_developer_full_time: "Desenvolvedor de Software - Tempo integral"
@@ -316,7 +316,7 @@ pt-BR:
 #    back_top: "Voltar ao topo"
 #    controller:
 #      a_complete_software_to_automate_your_project: "Um software completo para automatizar seus projetos"
-#    home:
+#    resume:
 #      brands:
 #        visit_website_of: "Visite o site da empresa %{company_name}"
 #      brands_that_are_already_driving: "Marcas que já estão impulsionando"

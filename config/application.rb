@@ -24,7 +24,7 @@ module ProfessionalResumeGenerator
 
     I18n.load_path += Dir[Rails.root.join('lib', 'locale', '*.{rb,yml}')]
     I18n.available_locales = [:en, :es, 'pt-BR']
-    I18n.default_locale = 'pt-BR'
+    I18n.default_locale = 'en'
 
     config.autoload_lib(ignore: %w(assets tasks))
     config.generators.system_tests = nil

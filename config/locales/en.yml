@@ -1,5 +1,8 @@
 en:
   template_pdf:
+    about: "Full-stack web developer specializing in Ruby on Rails, JavaScript, PostgreSQL,
+               and SASS, with a proven track record spanning over 2 years. My expertise lies in 
+               delivering innovative web solutions, particularly within the graphic sector."
     computer_science:
       course: "Bachelor of Computer Science"
       start_end: "2021 | January 2023"
@@ -21,9 +24,6 @@ en:
     period: "Period"
     phone: "phone"
     position: "position"
-    rails: "Full-stack web developer specializing in Ruby on Rails, JavaScript, PostgreSQL,
-             and SASS, with a proven track record spanning over 2 years. My expertise lies in 
-             delivering innovative web solutions, particularly within the graphic sector."
     start_end: "January 2023 | In progress"
     software_development: "Software development"
     software_developer_full_time: "Software Developer - Full-time"
@@ -299,7 +299,7 @@ en:
 #    back_top: "Back to top"
 #    controller:
 #      a_complete_software_to_automate_your_project: "A complete software to automate your projects"
-#    home:
+#    resume:
 #      brands:
 #        visit_website_of: "Visit the website of company %{company_name}"
 #      brands_that_are_already_driving: "Brands that already diving growth"

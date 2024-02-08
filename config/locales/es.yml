@@ -268,7 +268,7 @@ es:
 #    back_top: "Volver arriba"
 #    controller:
 #      a_complete_software_to_automate_your_project: "Un software completo para automatizar tus proyectos."
-#    home:
+#    resume:
 #      brands:
 #        visit_website_of: "Visita el sitio web de la empresa %{company_name}"
 #      brands_that_are_already_driving: "Marcas que ya están impulsando"

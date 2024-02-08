@@ -1,0 +1,9 @@
+<h1>Home#index</h1>
+
+<%= form_with(url: resume_template_pdf_path(format: :pdf), method: :get, local: false, target: '_blank') do |f| %>
+  <%= f.label :name, 'Nome:' %>
+  <%= f.text_field :name, required: true %>
+  <%= f.label :about, 'about:' %>
+  <%= f.text_field :about, required: true %>
+  <%= f.submit 'Gerar PDF' %>
+<% end %>
