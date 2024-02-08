@@ -30,6 +30,9 @@
 !/tmp/storage/
 !/tmp/storage/.keep
 
+.idea/*
+.idea/
+.idea
 /public/assets
 
 # Ignore master key for decrypting credentials and more.
